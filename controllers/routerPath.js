@@ -7,11 +7,11 @@ const path = require('path');
 
 const routerPath = new Router();
 
-routerPaths.get('/', (req, res) => {
+routerPath.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
 
-routerPaths.get('/notes', (req, res) => {
+routerPath.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'public', 'notes.html'));
 });
 
