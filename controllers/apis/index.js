@@ -1,9 +1,9 @@
 const { Router } = require('express');
 
-const routerNotes = require('./note');
+const routerNotes = require('./notes');
 
 const routerAPI = new Router();
 
-routerAPI.use('/note', routerNotes);
+routerAPI.use('/notes', routerNotes);
 
 module.exports = routerAPI;

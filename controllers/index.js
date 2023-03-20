@@ -6,7 +6,7 @@
 const { Router } = require('express');
 
 const routerPath = require('./routerPath');
-const routerAPI = require('./api');
+const routerAPI = require('./apis');
 
 const allRouters = new Router();
 

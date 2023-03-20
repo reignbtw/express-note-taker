@@ -10,8 +10,9 @@ routerNotes.get('/', (req, res) => {
 });
 
 routerNotes.post('/', (req, res) => {
-    const notes = JSON.parse(data);
     const data = fs.readFileSync('./db/db.json');
+    const notes = JSON.parse(data);
+
 
     notes.push(req.body);
     console.log(notes);
