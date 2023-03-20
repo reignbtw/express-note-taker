@@ -30,6 +30,6 @@ routerNotes.delete('/:id', (req, res) => {
 
     fs.writeFileSync('./db/db.json', JSON.stringify(notes));
     res.end();
-})
+});
 
 module.exports = routerNotes;
