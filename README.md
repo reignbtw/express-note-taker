@@ -14,6 +14,7 @@
   requires Express, and UUID use "npm i express" and "npm i uuid" to install them
   ## Usage 
   ![how-to-use-gif](./public/assets/gif-imgs/note-gif.gif)
+  
   Click on the Get Started button then simply add any notes you want. Click on the save button in the top right to save your notes, then if you want to delete any notes just click on the red trash-can next to your saved note.
 
   ## Screenshots 
